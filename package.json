@@ -1,7 +1,8 @@
 {
   "name": "@marcatopartners/oxen-queue",
-  "version": "0.0.0",
+  "version": "0.0.0-beta.1",
   "description": "A resilient worker queue backed by MySQL. A fork of Opteo/oxen-queue",
+  "main": "dist/queue.js",
   "engines": {
     "node": "=18.20.1"
   },
@@ -14,11 +15,14 @@
     "mysql2": "^3.6.3"
   },
   "scripts": {
-    "test": "mocha test/ --timeout 6000 --exit"
+    "test": "mocha test/ --timeout 6000 --exit",
+    "tsc": "tsc"
   },
   "devDependencies": {
+    "@types/node": "^20.12.5",
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "typescript": "^5.4.4"
   },
   "license": "MIT"
 }

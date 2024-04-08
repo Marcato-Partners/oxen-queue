@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "emitDeclarationOnly": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": "./lib",
+    "module": "commonjs",
+  },
+  "include": [
+    "lib/**/*.js"
+  ]
+}
