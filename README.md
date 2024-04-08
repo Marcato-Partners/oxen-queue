@@ -4,6 +4,8 @@
 ![CircleCI (all branches)](https://img.shields.io/circleci/project/github/Opteo/oxen-queue.svg)
 ![David](https://img.shields.io/david/Opteo/oxen-queue.svg)
 
+Forked from [Opteo/oxen-queue](https://github.com/Opteo/oxen-queue)
+
 A no-frills, resilient worker queue backed by MySQL.
 
 ### Features:

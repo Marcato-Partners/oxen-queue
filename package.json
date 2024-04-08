@@ -1,17 +1,15 @@
 {
-  "name": "oxen-queue",
-  "version": "0.1.10",
-  "description": "A resilient worker queue backed by MySQL.",
+  "name": "@marcatopartners/oxen-queue",
+  "version": "0.0.0",
+  "description": "A resilient worker queue backed by MySQL. A fork of Opteo/oxen-queue",
   "engines": {
-    "node": ">=7.0.0"
+    "node": "=18.20.1"
   },
-  "author": "Opteo Team <support@opteo.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Opteo/oxen-queue.git"
+    "url": "https://github.com/Marcato-Partners/oxen-queue"
   },
   "dependencies": {
-    "bluebird": "^3.7.2",
     "lodash": "^4.17.20",
     "mysql2": "^3.6.3"
   },
